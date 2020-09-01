@@ -148,7 +148,20 @@ color: var(--text-color)
     margin-left: 0px;
 }
 
-.advantage-list .list::before {
+.advantage-icon {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--secondary-bg-color);
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.advantage-item {
+    width: 70px;
+}
+/* .advantage-list .list::before {
     content: "";
     display: block;
     height: 120px;
@@ -171,7 +184,7 @@ color: var(--text-color)
 }
 .icon-spaceman::before {
     background-image: url(../images/icon4.svg);
-}
+} */
 
 /* .list:nth-child(1)::before {
     background-image: url(../images/icon1.png);
