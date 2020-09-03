@@ -325,7 +325,8 @@ margin-top: 30px;
     height: 44px;
 }
 
-.network-link:hover {
+.network-link:hover,
+.network-link:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
 }
@@ -342,9 +343,12 @@ margin-top: 30px;
     height: 44px;
 }
 
-.icon:hover {
+.network-link:hover .icon,
+.network-link:focus .icon {
     fill: var(--primary-bg-color);
 }
+
+
 
 .inst {
     background-image: url(../images/instagram.svg);
@@ -492,6 +496,8 @@ padding: 20px 24px;
     padding-right: 15px;
     padding-left: 15px;
 }
+
+
 .port-container {
     margin-left: auto;
     margin-right: auto;
