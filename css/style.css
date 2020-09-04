@@ -385,6 +385,42 @@ margin-top: 30px;
     margin-bottom: 30px;
 } */
 
+.section-clients .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.clients-item {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--network-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.clients-icon {
+    width: 45px;
+    fill: var(--network-color);
+}
+
+.clients-item:hover,
+.clients-item:focus {
+    border: 1px solid var(--accent-color)
+}
+
+.clients-item:hover .clients-icon {
+    fill: var(--accent-color);
+}
+
 
 
 /* Portfolio */
