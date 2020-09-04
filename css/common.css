@@ -187,7 +187,7 @@
 .footer-address { 
     color: var(--primary-bg-color);
     font-style: normal;
-    margin-bottom: 9px;
+    padding-bottom: 9px;
 }
 
 .footer-join { 
@@ -225,7 +225,6 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.71px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     padding-bottom: 9px;
