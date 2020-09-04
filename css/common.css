@@ -219,12 +219,16 @@
     vertical-align: middle;
 }
 .footer-contacts {
+    display: inline-block;
+    width: 231px;
+    height: 21px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 9px;
     
 }
 
@@ -238,9 +242,9 @@
     padding: 0;
 }
 
-.par {
+/* .par {
     margin-bottom: 9px;
-}
+} */
 .footer-contacts:last-child {
     margin: 0;
 }
