@@ -48,7 +48,7 @@ color: var(--text-color)
     background-image: 
     linear-gradient(to right, rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)), 
-    url("../images/hero-img.jpg");
+    url("../images/hero-bcg.jpg");
     background-color: var(--footer-color);
     background-repeat: no-repeat;
     background-position: center;
