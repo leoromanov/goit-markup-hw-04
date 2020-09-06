@@ -45,7 +45,10 @@ color: var(--text-color)
 }
 
 .hero-container {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-img.jpg");
+    background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), 
+    url("../images/hero-img.jpg");
     background-color: var(--footer-color);
     background-repeat: no-repeat;
     background-position: center;
@@ -251,7 +254,7 @@ color: var(--text-color)
 }
 
 .team-item {
-padding-bottom: 16px;
+
 padding-top: 30px;
 }
 
@@ -312,10 +315,13 @@ padding-top: 30px;
 .networks {
     display: flex;
     justify-content: space-around;
+    list-style: none;
     width: 206px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 30px;
+    margin-top: 16px;
+    padding: 0;
 }
 .network-link {
     display: flex;
