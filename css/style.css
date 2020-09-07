@@ -87,7 +87,7 @@ color: var(--text-color)
     }       
 .section:first-child { padding-bottom: 0;}
 .title {
-    margin: 0px 0px 10px;
+    margin: 0 0 10;
 }
 
 .text { margin: 0;}
@@ -99,12 +99,11 @@ color: var(--text-color)
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: 0px 0px 50px;    
+    margin: 0 0 50;    
 }
 .team { 
     background: var(--secondary-bg-color);
     padding-bottom: 94px;
-    max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
 }
